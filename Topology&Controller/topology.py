@@ -8,7 +8,6 @@ from mininet.link import TCLink
 # Definition of the Environment class to manage the network simulation
 class Environment(object):
     def __init__(self):
-        "Create a network."
         # Initialization of a Mininet network with a remote controller and link specifications
         self.net = Mininet(controller=RemoteController, link=TCLink)
         info("*** Starting controller\n")
