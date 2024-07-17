@@ -26,7 +26,6 @@ class SimpleSwitch13(app_manager.RyuApp):
         self.initial_threshold = self.calculate_initial_threshold()
         
         self.throughput_history = {}
-        self.max_throughput_history = {}  # Dictionary to store maximum throughput
         self.monitor_thread = hub.spawn(self._monitor)
         
         # Dictionary to track blocked ports and their last exceeded time
@@ -67,7 +66,7 @@ class SimpleSwitch13(app_manager.RyuApp):
             return initial_threshold
         except Exception as e:
             self.logger.error('Error calculating initial threshold: %s', e)
-            return 750000  # Default value if calculation fails (0.75Mbps)
+            return 750000  # Default value if calculation fails (0.75MBps)
 
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
     def switch_features_handler(self, ev):
