@@ -18,8 +18,7 @@ The existing SimpleSwitch13 class is extended to create a controller capable of 
 - **MAC Address Learning**: Learns source MAC addresses and incoming ports, then forwards packets accordingly.
 
 ### 2. Throughput Calculation
-The throughput is computed by periodically requesting statistics from each switch, using the formula:
-\[ \text{Throughput} = \frac{\text{Current Bytes} - \text{Previous Bytes}}{\text{Current Timestamp} - \text{Previous Timestamp}} \]
+The throughput is computed by periodically requesting statistics from each switch.
 
 ### 3. Blocking and Unblocking Mechanisms
 - **Dynamic Port Blocking**: Blocks ports experiencing excessive throughput indicative of a DoS attack.
