@@ -78,4 +78,4 @@ Future improvements to the SDN_Firewall project include:
 - [Lorenzo Manco](https://github.com/Rasbon99)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [GNU General Public License v3.0](LICENSE). Refer to the LICENSE file for more information.
