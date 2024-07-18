@@ -36,28 +36,6 @@ The throughput is computed by periodically requesting statistics from each switc
 - Ryu SDN Framework
 - Mininet Network Emulator
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Leonard2310/SDN_Firewall.git
-   cd SDN_Firewall
-   ```
-   
-2. Install required packages (TODO):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Usage
-1. Start the Mininet topology (TODO):
-   ```bash
-   sudo mn --custom topo.py --topo mytopo --controller remote --mac --switch ovsk --link tc
-   ```
-2. Run the Ryu application(TODO):
-   ```bash
-   ryu-manager sdn_firewall.py
-   ```
-
 ## Project Structure
 - **sdn_firewall.py**: Main controller script for the SDN firewall.
 - **topo.py**: Custom Mininet topology definition.
@@ -78,4 +56,4 @@ Future improvements to the SDN_Firewall project include:
 - [Lorenzo Manco](https://github.com/Rasbon99)
 
 ## License
-This project is licensed under the [GNU AFFERO General Public License v3.0](LICENSE). Refer to the LICENSE file for more information.
+This project is licensed under the [GNU General Public License v3.0](LICENSE). Refer to the LICENSE file for more information.
