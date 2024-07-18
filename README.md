@@ -12,7 +12,6 @@
     1. [Introduction](#introduction)
     2. [Objectives](#objectives)
     3. [DoS Attack Implementation](#dos-attack-implementation)
-        1. [Final Mininet Topology](#final-mininet-topology)
     4. [Performance Evaluation](#performance-evaluation)
     5. [Conclusion](#conclusion)
 5. [Getting Started](#getting-started)
@@ -65,8 +64,6 @@ The primary objectives of this project are twofold:
 The project involves defining a specific network topology in Mininet, generating both normal and DoS traffic, and evaluating the network's performance under these conditions. Additionally, the project aims to utilize the Ryu controller to monitor traffic, detect excessive traffic patterns, and apply OpenFlow rules to block malicious traffic, ensuring the network remains functional for legitimate users.
 
 ### DoS Attack Implementation
-
-#### Final Mininet Topology
 A specific network topology was developed using Python scripts with the Mininet library. The topology includes hosts and switches configured to simulate both common and DoS traffic. Host H1 acts as the attacker generating malicious traffic, while H2 generates normal traffic, both targeting H3, the receiver. The topology is designed to test the network's performance and resilience against DoS attacks.
 
 The final implementation involves the following components:
