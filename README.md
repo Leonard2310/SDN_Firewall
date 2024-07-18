@@ -74,8 +74,8 @@ Future improvements to the SDN_Firewall project include:
 - **Compliance and Regulatory Standards**: Ensure alignment with data protection laws and security best practices.
 
 ## Contributors
-- Leonardo Catello 
-- Lorenzo Manco 
+- [Leonardo Catello](https://github.com/Leonard2310)
+- [Lorenzo Manco](https://github.com/Rasbon99)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
